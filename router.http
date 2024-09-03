@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{    
+    "title": "Curso Java 8",
+    "descricao": "node do zero",
+    "duracao": 150
+}
+
+###
+
+GET  http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/0018b011-c183-40cf-b078-46488e5dffc8 
+Content-Type: application/json
+
+{
+    "title": "Curso Java 8",
+    "descricao": "Java para iniciantes",
+    "duracao": 80
+}
+
+###
+
+DELETE http://localhost:3333/videos/0018b011-c183-40cf-b078-46488e5dffc8 

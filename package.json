@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Esse projeto foi criado com base na aula https://www.youtube.com/watch?v=hHM-hr9q4mo\r da Rocketseat",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
